@@ -1,10 +1,47 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-.title h1{
+
+.container {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  gap: 20px;
+}
+
+.card-container {
+  width: 440px;
+}
+
+.title h1 {
   font-size: 128px;
-  background-color: #351B1A;
   padding: 12px;
+  line-height: 185px;
+  font-weight: 900px;
+  text-align: center;
+}
+
+.category {
+  padding: 12px;
+  background-color: chocolate;
+  width: 100%;
+}
+
+.category p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.food {
+  width: 100%;
+  padding: 12px;
+}
+
+.food-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
 }
