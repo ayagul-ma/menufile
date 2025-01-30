@@ -1,0 +1,11 @@
+.filterableProductTable{
+    width: 200px;
+}
+.ProductTable{
+    display: flex;
+    gap: 16px;
+}
+.ProductCategory{
+    display: flex;
+    justify-content: space-between;
+}
